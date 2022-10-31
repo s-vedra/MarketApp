@@ -16,4 +16,5 @@
    * Add a new recipe 
    * Search by recipe title, ingredients etc
    * Save recipes as favorite recipes
+   * Remove recipe from favorite list
  
