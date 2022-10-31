@@ -4,7 +4,7 @@
  
  ## Features
  
- * User (Admin) 
+ * User(Admin) 
   * Add a new recipe
   * Edit the recipe 
   * Delete the recipe  
