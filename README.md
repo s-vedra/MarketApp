@@ -16,5 +16,11 @@
    * Add a new recipe 
    * Search by recipe title, ingredients etc
    * Save recipes as favorite recipes
+
+* Movie 
+  * Add a new movie
+  * Edit the movie 
+  * Delete the movie  
+  * Search by genre or title
   
  
