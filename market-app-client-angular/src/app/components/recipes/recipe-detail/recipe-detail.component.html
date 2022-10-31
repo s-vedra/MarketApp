@@ -1,0 +1,11 @@
+<div class="card shadow-lg p-3 mb-5 bg-white rounded" 
+style="width: 21rem; height: 27rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{recipe.name}}</h5>
+      <img class="card-img-top recipe-image"  src={{recipe.image}} alt="Card image cap">
+      <p>{{recipe.description}}</p>
+    </div>
+  </div>
+<button class="btn btn-primary">Add To Favorites</button>
+<button *ngIf="role === 'Admin'" [routerLink]="['/recipe', recipe.id, 'edit']" class="btn btn-warning">Update</button>
+<button *ngIf="role === 'Admin'" (click)="onDeleteRecipe()" class="btn btn-danger">Delete</button>

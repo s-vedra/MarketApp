@@ -1,0 +1,12 @@
+C:\Users\VedraStojanovska\Desktop\Proekti\MarketApp-WebAPI\MarketApp-API\MarketAPI-AppSettings\bin\Debug\net6.0\MarketAPI-Configs.deps.json
+C:\Users\VedraStojanovska\Desktop\Proekti\MarketApp-WebAPI\MarketApp-API\MarketAPI-AppSettings\bin\Debug\net6.0\MarketAPI-Configs.dll
+C:\Users\VedraStojanovska\Desktop\Proekti\MarketApp-WebAPI\MarketApp-API\MarketAPI-AppSettings\bin\Debug\net6.0\MarketAPI-Configs.pdb
+C:\Users\VedraStojanovska\Desktop\Proekti\MarketApp-WebAPI\MarketApp-API\MarketAPI-AppSettings\obj\Debug\net6.0\MarketAPI-Configs.csproj.AssemblyReference.cache
+C:\Users\VedraStojanovska\Desktop\Proekti\MarketApp-WebAPI\MarketApp-API\MarketAPI-AppSettings\obj\Debug\net6.0\MarketAPI-Configs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VedraStojanovska\Desktop\Proekti\MarketApp-WebAPI\MarketApp-API\MarketAPI-AppSettings\obj\Debug\net6.0\MarketAPI-Configs.AssemblyInfoInputs.cache
+C:\Users\VedraStojanovska\Desktop\Proekti\MarketApp-WebAPI\MarketApp-API\MarketAPI-AppSettings\obj\Debug\net6.0\MarketAPI-Configs.AssemblyInfo.cs
+C:\Users\VedraStojanovska\Desktop\Proekti\MarketApp-WebAPI\MarketApp-API\MarketAPI-AppSettings\obj\Debug\net6.0\MarketAPI-Configs.csproj.CoreCompileInputs.cache
+C:\Users\VedraStojanovska\Desktop\Proekti\MarketApp-WebAPI\MarketApp-API\MarketAPI-AppSettings\obj\Debug\net6.0\MarketAPI-Configs.dll
+C:\Users\VedraStojanovska\Desktop\Proekti\MarketApp-WebAPI\MarketApp-API\MarketAPI-AppSettings\obj\Debug\net6.0\refint\MarketAPI-Configs.dll
+C:\Users\VedraStojanovska\Desktop\Proekti\MarketApp-WebAPI\MarketApp-API\MarketAPI-AppSettings\obj\Debug\net6.0\MarketAPI-Configs.pdb
+C:\Users\VedraStojanovska\Desktop\Proekti\MarketApp-WebAPI\MarketApp-API\MarketAPI-AppSettings\obj\Debug\net6.0\ref\MarketAPI-Configs.dll

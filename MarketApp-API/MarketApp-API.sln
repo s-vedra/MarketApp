@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketApp-API", "MarketApp-API\MarketApp-API.csproj", "{EB0CACF9-7AAE-4338-81B9-5271877D90B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketApp-DAL", "MarketApp-DAL\MarketApp-DAL.csproj", "{C26EB6FC-0078-4029-84BC-3167F405994A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketApp-DomainModels", "MarketApp-DomainModels\MarketApp-DomainModels.csproj", "{A26D4965-3FC1-412F-9888-A4B3D70FFEF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketAPI-Utilities", "MarketAPI-Utilities\MarketAPI-Utilities.csproj", "{383E8BD2-5721-45D7-9BFC-1ECEAD3B19AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketApp-Services", "MarketApp-Services\MarketApp-Services.csproj", "{67BEA268-331D-4172-9DC5-C08BBB4F90D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketApp-DTO", "MarketApp-DTO\MarketApp-DTO.csproj", "{FFF25277-4751-46DB-B528-E88D7E116CF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketApp-Configurations", "MarketApp-Configurations\MarketApp-Configurations.csproj", "{FF5D3463-97DB-4D37-ADBE-9C77B5CB5B54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB0CACF9-7AAE-4338-81B9-5271877D90B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0CACF9-7AAE-4338-81B9-5271877D90B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0CACF9-7AAE-4338-81B9-5271877D90B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0CACF9-7AAE-4338-81B9-5271877D90B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26EB6FC-0078-4029-84BC-3167F405994A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26EB6FC-0078-4029-84BC-3167F405994A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26EB6FC-0078-4029-84BC-3167F405994A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26EB6FC-0078-4029-84BC-3167F405994A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26D4965-3FC1-412F-9888-A4B3D70FFEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26D4965-3FC1-412F-9888-A4B3D70FFEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26D4965-3FC1-412F-9888-A4B3D70FFEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26D4965-3FC1-412F-9888-A4B3D70FFEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383E8BD2-5721-45D7-9BFC-1ECEAD3B19AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383E8BD2-5721-45D7-9BFC-1ECEAD3B19AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383E8BD2-5721-45D7-9BFC-1ECEAD3B19AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383E8BD2-5721-45D7-9BFC-1ECEAD3B19AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BEA268-331D-4172-9DC5-C08BBB4F90D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BEA268-331D-4172-9DC5-C08BBB4F90D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BEA268-331D-4172-9DC5-C08BBB4F90D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BEA268-331D-4172-9DC5-C08BBB4F90D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF25277-4751-46DB-B528-E88D7E116CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF25277-4751-46DB-B528-E88D7E116CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF25277-4751-46DB-B528-E88D7E116CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF25277-4751-46DB-B528-E88D7E116CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5D3463-97DB-4D37-ADBE-9C77B5CB5B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5D3463-97DB-4D37-ADBE-9C77B5CB5B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5D3463-97DB-4D37-ADBE-9C77B5CB5B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5D3463-97DB-4D37-ADBE-9C77B5CB5B54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA21356B-50CB-402A-AD3B-B864A4D6FD11}
+	EndGlobalSection
+EndGlobal
