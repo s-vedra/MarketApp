@@ -3,6 +3,7 @@ using MarketApp_DAL.Repository;
 using MarketApp_DomainModels;
 using MarketApp_DTO;
 using MarketApp_Services.Abstraction;
+using System.Linq;
 
 namespace MarketApp_Services.Implementation
 {
@@ -10,10 +11,13 @@ namespace MarketApp_Services.Implementation
     {
         private readonly IRecipeRepository _recipeRepository;
         private readonly IMapper _mapper;
-        public RecipeService(IRecipeRepository recipeRepository, IMapper mapper)
+        private readonly IUserRepository _userRepository;
+
+        public RecipeService(IRecipeRepository recipeRepository, IMapper mapper, IUserRepository userRepository)
         {
             _recipeRepository = recipeRepository;
             _mapper = mapper;
+            _userRepository = userRepository;
         }
 
         public void AddRecipe(RecipeDTO model)
@@ -22,9 +26,22 @@ namespace MarketApp_Services.Implementation
             _recipeRepository.Add(recipe);
         }
 
-        public void AddToFavorites(int id)
+        public async Task AddToFavorites(UserFavoriteRecipeDTO model)
         {
-            throw new NotImplementedException();
+           
+            FavoriteRecipe favoriteRecipe = new FavoriteRecipe()
+            {
+                ApplicationUserId = model.UserId,
+                RecipeId = model.RecipeId,
+                Recipe = await _recipeRepository.GetById(model.RecipeId),
+                ApplicationUser = await _userRepository.GetById(model.UserId)
+            };
+
+            if (_userRepository.GetFavoriteRecipes(favoriteRecipe.ApplicationUserId).Result.Any(x => x.RecipeId == favoriteRecipe.RecipeId))
+            {
+                throw new Exception("Already exists");
+            }
+            _recipeRepository.AddFavoriteRecipe(favoriteRecipe);
         }
 
         public async void DeleteRecipe(int id)
@@ -46,6 +63,12 @@ namespace MarketApp_Services.Implementation
         public List<RecipeDTO> GetRecipes()
         {
             return _recipeRepository.GetAll().Result.Select(x => _mapper.Map<RecipeDTO>(x)).ToList();
+        }
+
+        public async void RemoveFavoriteRecipe(int recipeId)
+        {
+            var recipe = await _recipeRepository.GetFavoriteRecipe(recipeId);
+            _recipeRepository.RemoveFavoriteRecipe(recipe);
         }
 
         public void UpdateRecipe(RecipeDTO model)

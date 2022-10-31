@@ -19,19 +19,20 @@ import { AuthInterceptor } from './services/interceptors.service';
 import { AuthService } from './services/auth.service';
 import { AuthGard } from './services/authgard.service';
 import { UserRegisterComponent } from './components/user-component/user-register/user-register.component';
+import { FavoriteRecipeComponent } from './components/recipes/recipes-list/favorite-recipe/favorite-recipe.component';
 
  
 
 const appRoutes : Routes = [
-  {path: '', component : RecipesComponent},
+  {path: '', component : RecipesComponent, canActivate: [AuthGard]},
   {path: 'recipes', component : RecipesComponent, canActivate: [AuthGard] },
   {path: 'recipe/:id', component: RecipeDetailComponent},
   {path: 'recipe', component: RecipesEditComponent},
   {path: 'recipe/:id/edit', component: RecipesEditComponent},
   {path: 'recipes/:string', component : RecipesComponent},
   {path: 'login', component : UserComponentComponent},
-  {path: 'register', component: UserRegisterComponent}
-  
+  {path: 'register', component: UserRegisterComponent},
+  {path: 'user/:id/recipes', component: FavoriteRecipeComponent}
 ]
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ const appRoutes : Routes = [
     TextFontDirective,
     RecipesEditComponent,
     UserComponentComponent,
-    UserRegisterComponent
+    UserRegisterComponent,
+    FavoriteRecipeComponent
   ],
   imports: [
     BrowserModule,

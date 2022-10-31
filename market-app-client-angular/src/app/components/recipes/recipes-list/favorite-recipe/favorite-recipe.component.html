@@ -1,0 +1,12 @@
+<div class="recipe-cards"> 
+<div *ngFor="let recipe of recipes">
+    <div class="card shadow-lg p-3 mb-5 bg-white rounded" 
+style="width: 25rem; height: 27rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{recipe.recipe.name}}</h5>
+      <img class="card-img-top recipe-image"  src={{recipe.recipe.image}} alt="Card image cap">
+      <p>{{recipe.recipe.description}}</p>
+    </div>
+  </div>
+</div>
+</div>

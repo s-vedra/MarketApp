@@ -1,6 +1,8 @@
 ﻿using MarketApp_Configurations;
 using MarketApp_DomainModels;
 using MarketApp_DTO;
+using MarketApp_Services.Abstraction;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -13,18 +15,22 @@ namespace MarketApp_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UserController : ControllerBase
     {
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IUserService _userService;
         private readonly AppSettings _config;
-        public UserController(UserManager<ApplicationUser> userManager, IOptions<AppSettings> config)
+        public UserController(UserManager<ApplicationUser> userManager, IOptions<AppSettings> config, IUserService userService)
         {
             _userManager = userManager;
             _config = config.Value;
+            _userService = userService;
         }
 
-        [HttpPost]
-        [Route("login")]
+        //api/User/login
+        [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginDTO model)
         {
             var user = await _userManager.FindByNameAsync(model.Username);
@@ -36,7 +42,7 @@ namespace MarketApp_API.Controllers
                 {
                     new Claim(ClaimTypes.Name, user.UserName),
                     new Claim(JwtRegisteredClaimNames.Jti, user.Id),
-                  
+
                 };
 
                 foreach (var userRole in userRoles)
@@ -55,7 +61,9 @@ namespace MarketApp_API.Controllers
             return Unauthorized();
         }
 
+        //api/User/register
         [HttpPost("register")]
+        [AllowAnonymous]
         public async Task<IActionResult> Register([FromBody] RegisterDTO model)
         {
             var userExists = await _userManager.FindByNameAsync(model.UserName);
@@ -83,6 +91,21 @@ namespace MarketApp_API.Controllers
 
             return Ok("Successfully registered!");
         }
+
+        //api/User/user/id/recipes
+        [HttpGet("user/{id}/recipes")]
+        public async Task<IActionResult> GetFavoriteRecipes([FromRoute] string id)
+        {
+            try
+            {
+                return Ok(await _userService.GetFavoriteRecipes(id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+           
+        }   
         private JwtSecurityToken GetToken(List<Claim> authClaims)
         {
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config.SecretKey));

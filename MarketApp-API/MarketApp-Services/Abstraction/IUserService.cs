@@ -9,6 +9,6 @@ namespace MarketApp_Services.Abstraction
 {
     public interface IUserService
     {
-        void AddToRole(string id);
+        Task<List<FavoriteRecipeDTO>> GetFavoriteRecipes(string userId);
     }
 }

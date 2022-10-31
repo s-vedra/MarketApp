@@ -49,7 +49,7 @@ export class RecipesEditComponent implements OnInit {
   }
   submitForm(){
     
-  if(this.router.url != '/recipes'){
+  if(this.router.url != '/recipe'){
     this.recipe = this.recipeForm.value
     console.log(this.recipe)
     this.service.updateRecipe(this.recipe).subscribe({

@@ -1,0 +1,10 @@
+.recipe-image{
+    height: 18rem;
+}
+.recipe-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8em;
+    margin-top: 2em;
+}

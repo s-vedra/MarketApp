@@ -9,7 +9,9 @@ namespace MarketApp_DAL.Repository
 {
     public interface IRecipeRepository : IRepository<Recipe, int>
     {
-        //Task<IEnumerable<Recipe>> GetAll();
         Task<IQueryable<Recipe>> GetFilteredRecipes(string name);
+        void AddFavoriteRecipe(FavoriteRecipe recipe);
+        void RemoveFavoriteRecipe(FavoriteRecipe recipe);
+        Task<FavoriteRecipe> GetFavoriteRecipe(int id);
     }
 }

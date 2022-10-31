@@ -1,11 +1,6 @@
 ﻿using AutoMapper;
 using MarketApp_DomainModels;
 using MarketApp_DTO;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MarketApp_Services.Mapper
 {
@@ -13,10 +8,12 @@ namespace MarketApp_Services.Mapper
     {
         public MapperProfile()
         {
-            //CreateMap<ProductDTO, Product>().ReverseMap();
             CreateMap<RecipeDTO, Recipe>().ReverseMap();
             CreateMap<AddRecipeDTO, Recipe>().ReverseMap();
             CreateMap<RegisterDTO, ApplicationUser>().ReverseMap();
+            CreateMap<UserDTO, ApplicationUser>().ReverseMap();
+            CreateMap<FavoriteRecipeDTO, FavoriteRecipe>().ReverseMap();
+
         }
     }
 }

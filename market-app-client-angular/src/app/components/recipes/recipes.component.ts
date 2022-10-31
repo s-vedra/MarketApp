@@ -2,6 +2,7 @@ import { Component, OnInit,Input } from '@angular/core';
 import { Recipe } from './recipe.model';
 import { RecipeService } from '../../services/recipes.service';
 import { Router, ActivatedRoute } from '@angular/router';
+import jwt_decode from 'jwt-decode';
 
 @Component({
   selector: 'app-recipes',
@@ -16,28 +17,16 @@ export class RecipesComponent implements OnInit {
    }
    filterBy! : string
   recipes! : Array<Recipe>
+  userId! : string
+  token! : any
   ngOnInit(): void {
-  // if(this.router.url != '/recipes'){
-  //   this.activatedRoute.paramMap.subscribe(
-  //     params => {
-  //      this.filterBy = params.get('string')!
-  //      console.log(this.filterBy)
-  //       this.recipeService.getFilteredRecipes(this.filterBy).subscribe({
-  //         next: (data) => {
-  //           this.recipes = data
-  //         }
-  //       })
-  //     }
-  //   )
-  // }else{
     this.recipeService.getRecipes().subscribe({
       next: (data) => {
         this.recipes = data
       }
     })
-  // }
- 
-   
+    this.token = jwt_decode(localStorage.getItem('user_auth')!)
+    this.userId = this.token.jti
   }
   
 }

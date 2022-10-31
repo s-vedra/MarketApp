@@ -22,3 +22,15 @@ C:\Users\VedraStojanovska\Desktop\Proekti\MarketAppProject\MarketApp-API\MarketA
 C:\Users\VedraStojanovska\Desktop\Proekti\MarketAppProject\MarketApp-API\MarketApp-DTO\obj\Debug\net6.0\refint\MarketApp-DTO.dll
 C:\Users\VedraStojanovska\Desktop\Proekti\MarketAppProject\MarketApp-API\MarketApp-DTO\obj\Debug\net6.0\MarketApp-DTO.pdb
 C:\Users\VedraStojanovska\Desktop\Proekti\MarketAppProject\MarketApp-API\MarketApp-DTO\obj\Debug\net6.0\ref\MarketApp-DTO.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DTO\bin\Debug\net6.0\MarketApp-DTO.deps.json
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DTO\bin\Debug\net6.0\MarketApp-DTO.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DTO\bin\Debug\net6.0\MarketApp-DTO.pdb
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DTO\obj\Debug\net6.0\MarketApp-DTO.csproj.AssemblyReference.cache
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DTO\obj\Debug\net6.0\MarketApp-DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DTO\obj\Debug\net6.0\MarketApp-DTO.AssemblyInfoInputs.cache
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DTO\obj\Debug\net6.0\MarketApp-DTO.AssemblyInfo.cs
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DTO\obj\Debug\net6.0\MarketApp-DTO.csproj.CoreCompileInputs.cache
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DTO\obj\Debug\net6.0\MarketApp-DTO.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DTO\obj\Debug\net6.0\refint\MarketApp-DTO.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DTO\obj\Debug\net6.0\MarketApp-DTO.pdb
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DTO\obj\Debug\net6.0\ref\MarketApp-DTO.dll

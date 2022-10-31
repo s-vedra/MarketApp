@@ -40,3 +40,24 @@ C:\Users\VedraStojanovska\Desktop\Proekti\MarketAppProject\MarketApp-API\MarketA
 C:\Users\VedraStojanovska\Desktop\Proekti\MarketAppProject\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\refint\MarketAPI-Utilities.dll
 C:\Users\VedraStojanovska\Desktop\Proekti\MarketAppProject\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\MarketAPI-Utilities.pdb
 C:\Users\VedraStojanovska\Desktop\Proekti\MarketAppProject\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\ref\MarketAPI-Utilities.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\bin\Debug\net6.0\MarketAPI-Utilities.deps.json
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\bin\Debug\net6.0\MarketAPI-Utilities.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\bin\Debug\net6.0\MarketAPI-Utilities.pdb
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\bin\Debug\net6.0\MarketApp-DAL.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\bin\Debug\net6.0\MarketApp-DomainModels.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\bin\Debug\net6.0\MarketApp-DTO.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\bin\Debug\net6.0\MarketApp-Services.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\bin\Debug\net6.0\MarketApp-DAL.pdb
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\bin\Debug\net6.0\MarketApp-Services.pdb
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\bin\Debug\net6.0\MarketApp-DomainModels.pdb
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\bin\Debug\net6.0\MarketApp-DTO.pdb
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\MarketAPI-Utilities.csproj.AssemblyReference.cache
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\MarketAPI-Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\MarketAPI-Utilities.AssemblyInfoInputs.cache
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\MarketAPI-Utilities.AssemblyInfo.cs
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\MarketAPI-Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\MarketAPI-Utilities.csproj.CopyComplete
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\MarketAPI-Utilities.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\refint\MarketAPI-Utilities.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\MarketAPI-Utilities.pdb
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketAPI-Utilities\obj\Debug\net6.0\ref\MarketAPI-Utilities.dll

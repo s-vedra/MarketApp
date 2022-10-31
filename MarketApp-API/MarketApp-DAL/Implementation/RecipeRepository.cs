@@ -7,13 +7,19 @@ namespace MarketApp_DAL.Implementation
     public class RecipeRepository : IRecipeRepository
     {
         private readonly ApplicationDbContext _dbContext;
-        public RecipeRepository(ApplicationDbContext dbContext)
+        public RecipeRepository(ApplicationDbContext dbContext, IUserRepository userRepository)
         {
             _dbContext = dbContext;
         }
         public void Add(Recipe entity)
         {
             _dbContext.Recipe.Add(entity);
+            _dbContext.SaveChanges();
+        }
+
+        public void AddFavoriteRecipe(FavoriteRecipe recipe)
+        {
+            _dbContext.FavoriteRecipes.Add(recipe);
             _dbContext.SaveChanges();
         }
 
@@ -40,13 +46,24 @@ namespace MarketApp_DAL.Implementation
             || x.Type.ToLower().Contains(name.ToLower()) || x.Ingredients.ToLower().Contains(name.ToLower()));
         }
 
+        public void RemoveFavoriteRecipe(FavoriteRecipe recipe)
+        {
+            _dbContext.FavoriteRecipes.Remove(recipe);
+            _dbContext.SaveChanges();
+        }
+
         public async void Update(Recipe entity)
         {
             Recipe recipe = await GetById(entity.Id);
             _dbContext.Entry(recipe).CurrentValues.SetValues(entity);
             _dbContext.SaveChanges();
-            //_dbContext.Update(entity);
 
+        }
+
+        public async Task<FavoriteRecipe> GetFavoriteRecipe(int id)
+        {
+            return _dbContext.FavoriteRecipes
+                .SingleOrDefault(x => x.Id == id);
         }
     }
 }

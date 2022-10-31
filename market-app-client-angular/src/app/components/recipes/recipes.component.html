@@ -1,3 +1,4 @@
 
 <button routerLink="/recipe" class="btn btn-success mt-2">New Recipe</button>
+<button [routerLink]="['/user', userId, 'recipes']" class="btn btn-primary">Favorites</button>
 <app-recipes-list [recipes] = "recipes"></app-recipes-list>

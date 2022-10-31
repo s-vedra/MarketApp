@@ -22,3 +22,15 @@ C:\Users\VedraStojanovska\Desktop\Proekti\MarketAppProject\MarketApp-API\MarketA
 C:\Users\VedraStojanovska\Desktop\Proekti\MarketAppProject\MarketApp-API\MarketApp-DomainModels\obj\Debug\net6.0\refint\MarketApp-DomainModels.dll
 C:\Users\VedraStojanovska\Desktop\Proekti\MarketAppProject\MarketApp-API\MarketApp-DomainModels\obj\Debug\net6.0\MarketApp-DomainModels.pdb
 C:\Users\VedraStojanovska\Desktop\Proekti\MarketAppProject\MarketApp-API\MarketApp-DomainModels\obj\Debug\net6.0\ref\MarketApp-DomainModels.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DomainModels\bin\Debug\net6.0\MarketApp-DomainModels.deps.json
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DomainModels\bin\Debug\net6.0\MarketApp-DomainModels.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DomainModels\bin\Debug\net6.0\MarketApp-DomainModels.pdb
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DomainModels\obj\Debug\net6.0\MarketApp-DomainModels.csproj.AssemblyReference.cache
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DomainModels\obj\Debug\net6.0\MarketApp-DomainModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DomainModels\obj\Debug\net6.0\MarketApp-DomainModels.AssemblyInfoInputs.cache
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DomainModels\obj\Debug\net6.0\MarketApp-DomainModels.AssemblyInfo.cs
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DomainModels\obj\Debug\net6.0\MarketApp-DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DomainModels\obj\Debug\net6.0\MarketApp-DomainModels.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DomainModels\obj\Debug\net6.0\refint\MarketApp-DomainModels.dll
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DomainModels\obj\Debug\net6.0\MarketApp-DomainModels.pdb
+C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-DomainModels\obj\Debug\net6.0\ref\MarketApp-DomainModels.dll

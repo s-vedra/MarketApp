@@ -1,6 +1,5 @@
 ﻿using MarketApp_DTO;
 using MarketApp_Services.Abstraction;
-using MarketApp_Services.Implementation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,13 +13,13 @@ namespace MarketApp_API.Controllers
         private readonly IRecipeService _recipeService;
         public RecipesController(IRecipeService recipeService)
         {
-            _recipeService = recipeService; 
+            _recipeService = recipeService;
         }
         //api/Recipes/recipes
         [HttpGet("recipes")]
         public IActionResult GetRecipes()
         {
-            
+
             List<RecipeDTO> recipes = _recipeService.GetRecipes();
             return Ok(recipes);
         }
@@ -49,7 +48,7 @@ namespace MarketApp_API.Controllers
         }
 
         //api/Recipes/recipe/id/edit
-        [HttpPatch ("recipe/{id}/edit")]
+        [HttpPatch("recipe/{id}/edit")]
         public IActionResult UpdateRecipe([FromBody] RecipeDTO model)
         {
             _recipeService.UpdateRecipe(model);
@@ -63,10 +62,26 @@ namespace MarketApp_API.Controllers
             return Ok();
         }
 
-        //api/Recipes/recipe/favorite
+        //api/Recipes/recipe/{id}/favorite
         [HttpPost("recipe/{id}/favorite")]
-        public IActionResult AddToFavorites([FromBody] RecipeDTO model)
+        public async Task<IActionResult> AddToFavorites([FromBody] UserFavoriteRecipeDTO model)
         {
+            try
+            {
+                await _recipeService.AddToFavorites(model);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
+        [HttpDelete("recipe/{id}/delete")]
+        [AllowAnonymous]
+        public IActionResult RemoveFavoriteRecipe([FromRoute] int id)
+        {
+            _recipeService.RemoveFavoriteRecipe(id);
             return Ok();
         }
     }

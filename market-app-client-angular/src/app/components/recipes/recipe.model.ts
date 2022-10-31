@@ -13,3 +13,7 @@ export interface AddRecipe{
    type:string;
    ingridients: string;
 }
+export interface FavoriteRecipe{
+   recipeId : number,
+   userId : string
+}

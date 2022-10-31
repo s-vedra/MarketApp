@@ -5,7 +5,6 @@ using MarketApp_Services.Abstraction;
 using MarketApp_Services.Implementation;
 using MarketApp_Services.Mapper;
 using Microsoft.Extensions.DependencyInjection;
-using System.Runtime.CompilerServices;
 
 namespace MarketAPI_Utilities
 {
@@ -13,7 +12,6 @@ namespace MarketAPI_Utilities
     {
         public static IServiceCollection RegisterDependencies(this IServiceCollection service)
         {
-
             service.AddScoped<IUserRepository, UserRepository>();
             service.AddScoped<IUserService, UserService>();
             service.AddScoped<IRecipeRepository, RecipeRepository>();
@@ -26,7 +24,6 @@ namespace MarketAPI_Utilities
             });
             IMapper mapper = mapperConfig.CreateMapper();
             service.AddSingleton(mapper);
-            return service;
             return service;
         }
     }

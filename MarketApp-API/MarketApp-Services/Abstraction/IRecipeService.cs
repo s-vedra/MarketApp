@@ -17,7 +17,8 @@ namespace MarketApp_Services.Abstraction
         void AddRecipe(RecipeDTO model);
         void UpdateRecipe(RecipeDTO model);
         void DeleteRecipe(int id);
-        void AddToFavorites(int id);
+        Task AddToFavorites(UserFavoriteRecipeDTO recipe);
+        void RemoveFavoriteRecipe(int recipeId);
 
     }
 }
