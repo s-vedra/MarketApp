@@ -1,6 +1,6 @@
 # MarketApp
  ##Summary
- An end-to-end app with the ability to see recipes, save them as your favorite and add new recipes. Authorization and authentication is implemented with ASP.NET Identity and JWT Tokens, while the data provided is implemented with Bogus librabry.
+ An end-to-end app with the ability to see recipes, save them as your favorite and add new recipes. Authorization and authentication are implemented with ASP.NET Identity and JWT Tokens, while the data provided is implemented with Bogus librabry.
  
  ## Features
 
