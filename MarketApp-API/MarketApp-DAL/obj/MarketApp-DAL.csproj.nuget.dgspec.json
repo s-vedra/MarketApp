@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DAL\\MarketApp-DAL.csproj": {}
+    "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DAL\\MarketApp-DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DAL\\MarketApp-DAL.csproj": {
+    "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DAL\\MarketApp-DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DAL\\MarketApp-DAL.csproj",
+        "projectUniqueName": "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DAL\\MarketApp-DAL.csproj",
         "projectName": "MarketApp-DAL",
-        "projectPath": "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DAL\\MarketApp-DAL.csproj",
-        "packagesPath": "C:\\Users\\Vedra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DAL\\obj\\",
+        "projectPath": "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DAL\\MarketApp-DAL.csproj",
+        "packagesPath": "C:\\Users\\VedraStojanovska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Vedra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\VedraStojanovska\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DomainModels\\MarketApp-DomainModels.csproj": {
-                "projectPath": "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DomainModels\\MarketApp-DomainModels.csproj"
+              "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DomainModels\\MarketApp-DomainModels.csproj": {
+                "projectPath": "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DomainModels\\MarketApp-DomainModels.csproj"
               }
             }
           }
@@ -96,25 +92,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DomainModels\\MarketApp-DomainModels.csproj": {
+    "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DomainModels\\MarketApp-DomainModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DomainModels\\MarketApp-DomainModels.csproj",
+        "projectUniqueName": "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DomainModels\\MarketApp-DomainModels.csproj",
         "projectName": "MarketApp-DomainModels",
-        "projectPath": "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DomainModels\\MarketApp-DomainModels.csproj",
-        "packagesPath": "C:\\Users\\Vedra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DomainModels\\obj\\",
+        "projectPath": "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DomainModels\\MarketApp-DomainModels.csproj",
+        "packagesPath": "C:\\Users\\VedraStojanovska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DomainModels\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Vedra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\VedraStojanovska\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,8 +114,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net6.0": {
@@ -166,7 +158,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DTO\\MarketApp-DTO.csproj": {}
+    "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DTO\\MarketApp-DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DTO\\MarketApp-DTO.csproj": {
+    "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DTO\\MarketApp-DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DTO\\MarketApp-DTO.csproj",
+        "projectUniqueName": "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DTO\\MarketApp-DTO.csproj",
         "projectName": "MarketApp-DTO",
-        "projectPath": "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DTO\\MarketApp-DTO.csproj",
-        "packagesPath": "C:\\Users\\Vedra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vedra\\Desktop\\Akademija\\GitHub repo\\MarketApp\\MarketApp-API\\MarketApp-DTO\\obj\\",
+        "projectPath": "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DTO\\MarketApp-DTO.csproj",
+        "packagesPath": "C:\\Users\\VedraStojanovska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VedraStojanovska\\Desktop\\MarketApp\\MarketApp\\MarketApp-API\\MarketApp-DTO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Vedra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\VedraStojanovska\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,8 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net6.0": {
@@ -60,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -42,6 +42,7 @@ namespace MarketApp_API.Controllers
                 {
                     new Claim(ClaimTypes.Name, user.UserName),
                     new Claim(JwtRegisteredClaimNames.Jti, user.Id),
+                    new Claim("firstName", user.FirstName)
 
                 };
 
@@ -58,7 +59,7 @@ namespace MarketApp_API.Controllers
                     expiration = token.ValidTo
                 });
             }
-            return Unauthorized();
+            return BadRequest("Username and password is incorrect");
         }
 
         //api/User/register

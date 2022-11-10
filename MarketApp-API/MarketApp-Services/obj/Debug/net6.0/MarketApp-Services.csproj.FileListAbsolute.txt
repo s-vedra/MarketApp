@@ -55,3 +55,22 @@ C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-S
 C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\refint\MarketApp-Services.dll
 C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\MarketApp-Services.pdb
 C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\ref\MarketApp-Services.dll
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\bin\Debug\net6.0\MarketApp-Services.deps.json
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\bin\Debug\net6.0\MarketApp-Services.dll
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\bin\Debug\net6.0\MarketApp-Services.pdb
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\bin\Debug\net6.0\MarketApp-DAL.dll
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\bin\Debug\net6.0\MarketApp-DomainModels.dll
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\bin\Debug\net6.0\MarketApp-DTO.dll
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\bin\Debug\net6.0\MarketApp-DAL.pdb
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\bin\Debug\net6.0\MarketApp-DomainModels.pdb
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\bin\Debug\net6.0\MarketApp-DTO.pdb
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\MarketApp-Services.csproj.AssemblyReference.cache
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\MarketApp-Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\MarketApp-Services.AssemblyInfoInputs.cache
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\MarketApp-Services.AssemblyInfo.cs
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\MarketApp-Services.csproj.CoreCompileInputs.cache
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\MarketApp-Services.csproj.CopyComplete
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\MarketApp-Services.dll
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\refint\MarketApp-Services.dll
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\MarketApp-Services.pdb
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Services\obj\Debug\net6.0\ref\MarketApp-Services.dll

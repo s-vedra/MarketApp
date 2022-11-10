@@ -34,3 +34,15 @@ C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-C
 C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-Configurations\obj\Debug\net6.0\refint\MarketApp-Configurations.dll
 C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-Configurations\obj\Debug\net6.0\MarketApp-Configurations.pdb
 C:\Users\Vedra\Desktop\Akademija\GitHub repo\MarketApp\MarketApp-API\MarketApp-Configurations\obj\Debug\net6.0\ref\MarketApp-Configurations.dll
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Configurations\bin\Debug\net6.0\MarketApp-Configurations.deps.json
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Configurations\bin\Debug\net6.0\MarketApp-Configurations.dll
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Configurations\bin\Debug\net6.0\MarketApp-Configurations.pdb
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Configurations\obj\Debug\net6.0\MarketApp-Configurations.csproj.AssemblyReference.cache
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Configurations\obj\Debug\net6.0\MarketApp-Configurations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Configurations\obj\Debug\net6.0\MarketApp-Configurations.AssemblyInfoInputs.cache
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Configurations\obj\Debug\net6.0\MarketApp-Configurations.AssemblyInfo.cs
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Configurations\obj\Debug\net6.0\MarketApp-Configurations.csproj.CoreCompileInputs.cache
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Configurations\obj\Debug\net6.0\MarketApp-Configurations.dll
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Configurations\obj\Debug\net6.0\refint\MarketApp-Configurations.dll
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Configurations\obj\Debug\net6.0\MarketApp-Configurations.pdb
+C:\Users\VedraStojanovska\Desktop\MarketApp\MarketApp\MarketApp-API\MarketApp-Configurations\obj\Debug\net6.0\ref\MarketApp-Configurations.dll
