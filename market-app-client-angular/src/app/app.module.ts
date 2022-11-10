@@ -24,7 +24,7 @@ import { FavoriteRecipeComponent } from './components/recipes/recipes-list/favor
  
 
 const appRoutes : Routes = [
-  {path: '', component : RecipesComponent, canActivate: [AuthGard]},
+  {path: '', component : RecipesComponent},
   {path: 'recipes', component : RecipesComponent, canActivate: [AuthGard] },
   {path: 'recipe/:id', component: RecipeDetailComponent},
   {path: 'recipe', component: RecipesEditComponent},

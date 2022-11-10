@@ -31,7 +31,12 @@ export class UserComponentComponent implements OnInit {
       console.log(data)
       this.tokenData = data
       localStorage.setItem('user_auth', this.tokenData.token)
-      this.router.navigate(['/recipes'])
+      this.router.navigate(['/recipes']).then(() => {
+        window.location.reload()
+      })
+    },
+    error: (data) => {
+      console.log(data.error.title)
     }
    })
   }

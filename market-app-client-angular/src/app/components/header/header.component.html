@@ -1,10 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" routerLink="/recipes">Your Market App</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+   
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li *ngIf="isLoggedIn == true" class="nav-item ">
+          <a class="nav-link name">Hello {{firstName}}!</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/recipes">Recipes</a>
         </li>
@@ -15,7 +16,29 @@
         <li *ngIf="isLoggedIn == true" class="nav-item logout-button">
           <a (click)="logout()" class="nav-link">Logout</a>
         </li>
-        
+       
       </ul>
+    </div>
+  </nav> -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/recipes">Your Market App</a>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/recipes">Recipes</a>
+          </li>
+          <li *ngIf="isLoggedIn == false" class="nav-item">
+            <a class="nav-link" [routerLink]="['/login']">Login</a>
+          </li>
+          <li *ngIf="isLoggedIn == true" class="nav-item logout-button">
+            <a (click)="logout()" class="nav-link">Logout</a>
+          </li>
+        </ul>
+        <h3 *ngIf="isLoggedIn == true" class="navbar-text name">
+          Hello {{firstName}}!
+        </h3>
+      </div>
     </div>
   </nav>
